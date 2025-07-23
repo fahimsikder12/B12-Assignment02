@@ -70,7 +70,7 @@ nav ul li .nav-item-last{
     font-weight: bold;
 }
 
-.banner-item span{
+.fresh{
     color: #E95A08;
 }
 
@@ -80,12 +80,31 @@ nav ul li .nav-item-last{
     font-weight: 400;
 }
 
+/* Plants styles */
+.plants{
+    text-align: center;
+    max-width: 1440px;
+}
+
+.plants h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.plants p{
+    color: #000000;
+    font-size: 22px ;
+    font-weight: 400;
+    padding: 0px 276px 49px;
+}
 
 
 
 
 @media screen and (max-width: 576px) {
-    .navbar{
+    .navbar,
+    .plants{
         display: flex;
         flex-direction: column;
     }
@@ -96,14 +115,17 @@ nav ul li .nav-item-last{
     .banner{
         display: flex;
         flex-direction: column-reverse;
-        margin: 28px 16px 65px;
+        margin: 28px 10px 65px;
     }
     .banner-item{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
     }
     .banner img{
         max-width: 393.18px;
         margin: 28px auto;
+    }
+    .plants p{
+        padding: 0px;
     }
 }
